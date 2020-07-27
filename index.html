@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link href="images/web.png" rel="icon" type="image/x-icon" />
 	</head>
 	<body class="is-preload">
 
@@ -22,7 +23,7 @@
 						<a href="#" class="icon solid fa-home"><span>Inicio</span></a>
 						<a href="#trabajo" class="icon solid fa-camera-retro"><span>Mi Trabajo</span></a>
 						<a href="#contact" class="icon solid fa-envelope"><span>Cont&aacute;cteme</span></a>
-						<a href="http://instagram.com/rebe_fotografa" class="icon brands fa-instagram" target="_blank"><span>Instagram</span></a>
+						<a href="http://instagram.com/rebe_fotografa" target="_blank" class="icon brands fa-instagram"><span>Instagram</span></a>
 					</nav>
 
 				<!-- Main -->
@@ -31,8 +32,8 @@
 						<!-- Me -->
 							<article id="home" class="panel intro">
 								<header>
-									<h1>Rebeca Monge</h1>
-									<p>Fot&oacute;grafa</p>
+									<h1>¡Hola! Soy Rebeca</h1>
+									<p>"No imagino mi vida sin fotos y mucho menos sin una c&aacute;mara, me apasiona hacer eternos los momentos pasajeros que marcan nuestras vidas."</p>
 								</header>
 								<a href="#trabajo" class="jumplink pic">
 									<!-- <span class="arrow icon solid fa-chevron-right"><span>See my work</span></span> -->
@@ -46,9 +47,7 @@
 									<h2>Mi Trabajo</h2>
 								</header>
 								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-									luctus elit eget interdum.
+									Esta es una breve galer&iacute;a de algunos de mis trabajos m&aacute;s recientes, dale clic a la secci&oacute;n que m&aacute;s te interese para ver m&aacute;s fotograf&iacute;as.
 								</p>
 								<section>
 									<div class="row">
@@ -67,6 +66,9 @@
 										<div class="col-4 col-6-medium col-12-small">
 											<a href="ninos.html" class="image fit"><img src="images/pic05.jpg" alt=""></a>
 										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="producto.html" class="image fit"><img src="images/pic06.jpg" alt=""></a>
+										</div>
 									</div>
 								</section>
 							</article>
@@ -76,7 +78,7 @@
 								<header>
 									<h2>Cont&aacute;cteme</h2>
 								</header>
-								<form action="#" method="post">
+								<form method="post" data-netlify="true"  netlify-honeypot="bot-field">
 									<div>
 										<div class="row">
 											<div class="col-6 col-12-medium">
@@ -90,6 +92,9 @@
 											</div>
 											<div class="col-12">
 												<textarea name="message" placeholder="Mensaje" rows="6"></textarea>
+											</div>
+											<div style="visibility: hidden;">
+												<input type="input" id="bot-field" name="bot-field" />
 											</div>
 											<div class="col-12">
 												<input type="submit" value="Enviar" />
